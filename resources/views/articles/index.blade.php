@@ -6,6 +6,11 @@
                 <p>{{$message}}</p>
             </div>
         @endif
+        <div class="row">
+            <div class="ml-5 m-2">
+                <a class="btn btn-success" href="{{route('cetak_pdf')}}">Cetak PDF</a>
+            </div>
+        </div>
         <table class="table table-bordered" style="width:95%;margin: 0 auto;">
             <tr>
                 <th>Judul</th>
